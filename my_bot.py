@@ -164,7 +164,7 @@ async def version(context):
 async def on_ready():
     #Do stuff
     bot_channel = client.get_channel(1023311688767897711)
-    await bot_channel.send('Xinh chao cac ban!')
+    await bot_channel.send('FlightBot is live!')
 
 def get_quote():
     response = requests.get("https://zenquotes.io/api/random")
